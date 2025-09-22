@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "author": "Kelompok 5 - IoT",
+  "created": "2025",
+  "description": "Diagram koneksi untuk sistem lorong pintar",
+  "connections": [
+    {
+      "component": "LED Lorong 1",
+      "pin": "2",
+      "type": "Digital Output"
+    },
+    {
+      "component": "LED Lorong 2",
+      "pin": "6",
+      "type": "Digital Output"
+    },
+    {
+      "component": "LED Lorong 3",
+      "pin": "4",
+      "type": "Digital Output"
+    },
+    {
+      "component": "Sensor LDR",
+      "pin": "A5",
+      "type": "Analog Input"
+    },
+    {
+      "component": "Sensor IR Lorong 1",
+      "pin": "A0",
+      "type": "Analog Input"
+    },
+    {
+      "component": "Sensor IR Lorong 2",
+      "pin": "A1",
+      "type": "Analog Input"
+    },
+    {
+      "component": "Sensor IR Lorong 3",
+      "pin": "A2",
+      "type": "Analog Input"
+    }
+  ],
+  "notes": "LED terhubung ke pin digital dengan resistor 220Ω. Sensor LDR dan IR terhubung ke pin analog dengan rangkaian pembagi tegangan."
+}
